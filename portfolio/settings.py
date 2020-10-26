@@ -25,7 +25,7 @@ SECRET_KEY = ')wo#3d5%&o6&juw17huz0(qwilj54p0g0w%o%4cx9-3ckh(&ac'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','portfoliobalaji.herokuapp.com']
 
 
 # Application definition
