@@ -8,4 +8,4 @@ db.sqlite3
 db.sqlite3-journal
 media
 port_venv
-.vs_code
+vs_code

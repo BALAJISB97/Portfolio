@@ -1,0 +1,148 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	 <!-- Required meta tags -->
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+	 <!-- Bootstrap CSS -->
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+ 
+	<title>BALAJI S B | Developer </title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="/">BALAJI</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/contact">Contact me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% static 'images/CV.pdf' %}" download>Download My CV</a>
+				</li>
+
+			</ul>
+		</div>
+	</nav>
+	<div class="alert alert-success alert-dismissible fade show" role="alert">
+		<strong>Hi Visitor! I'm currently looking for full time opportunities as developer.</strong>
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		  <span aria-hidden="true">&times;</span>
+		</button>
+	  </div>
+	  
+	
+	  
+
+	
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/balaji.JPG' %}">
+					<hr>
+					<h4>Hi I'm Balaji!</h4>
+					<p>A Developer with strong passion for self-improvement. I have strong Problem Solving skills &
+						bring energy, patience, positivity and cultural values to the team</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>About Me</h4>
+					<hr>
+					<p>Hi Everyone, first of all, I would like to thank you for going through my portfolio.
+						I'm Balaji from coimbatore, with 1 year of experience as Application engineer and 8 months of experience as Application engineer Intern at Amazon chennai.
+						I graduated with my degree in Mechatronics at Bannari amman institute of technology an year ago.</p>
+
+					<p>I'm actively looking for full time opportunities as Software developer. I'm passionate and enthusiastic developer who believes in "always keep learning and always keep progressing". 
+					</p>
+
+					<p>Please feel free to reach out to me.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Application Engineer</h5>
+					<hr>
+					<p>After my Internship, I got an opportunity to work as full time Application Engineer with the same team where I completed internship. </p>
+					<p>Some of my key achievements as application engineer.</p>
+					<p> 1. Improved report & payment delivery timeliness from 15th and 25th of the month to 5th and 15th of the month respectively by setting up monitors, automatic retry mechanisms for failed payment and reports.</p>
+					<p> 2. I have analysed and reduced the incoming ticket count of Digital Business org to 50% by identifying the recurring issues and fixing their root-cause to completely eliminate the issues. 
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p> Programming Languages</p>
+					<p>Python, C</p>
+					<p>Backend Skills</p>
+					<p>Django,SQL, Amazon Redshift, posgres</p>
+					<p>Dev Tools</p>
+					<p>Git version Control, Internal Pipelines of Amazon (~ Docker)</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as Application Engineer Intern</h5>
+					<hr>
+					<p>During my intership, I had a chance to work with costing and payment system of Digital Business of Amazon.</p>
+
+					<p>Some of my key achievenments as Application Engineer Intern.
+						1.Automation of monthend metrics of payments to Leadership.The automation retrieves the data and prepares the metrics in 15-20 minutes for all the digital business and eliminated the operational work (~3 days for month) involved in deck preparation ensured the accuracy of report.</p>
+					<p>	2.I've improved the classifier performance by 2X times. The Classifier is used to classify the incoming transaction based on its status and was used by multiple teams to take required actions.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Educational Qualification</h5>
+					<hr>
+					<p>B.E 	- 8.45 CGPA</p>
+					<p>Mechatronics (Majors),  Bannari Amman institute of technology.</p>
+					<p>Computer science(Minors),Bannari Amman institute of technology.</p>
+					<p>Class XII - 92% </p>
+					<p>Holy cross,salem.</p>
+					<p>Class X - 98%</p>
+					<p> Saradha Balmandhir,salem.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+
+</html>
